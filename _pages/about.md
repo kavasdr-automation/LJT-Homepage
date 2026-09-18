@@ -25,3 +25,11 @@ My research focuses on natural language processing and machine learning. My rese
 ## Awards
 
 - Zhiyuan Honor Scholarship, Shanghai Jiao Tong University
+
+## Selected Publications
+
+<ul>
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+</ul>
